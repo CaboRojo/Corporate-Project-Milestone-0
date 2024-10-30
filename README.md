@@ -1,4 +1,4 @@
-# Investment Portfolio App
+# Investment Portfolio App (Corporate Project)
 
 This is a Flask-based web application that displays an investment portfolio. It provides an overview of the portfolio and detailed information about each stock, including price data for the last 12 months.
 
