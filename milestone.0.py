@@ -42,7 +42,7 @@ portfolio_display_dict = {
 def get_stock_data_for_last_12_months(symbol):
     base_url = "https://www.alphavantage.co/query?"
     function = "TIME_SERIES_DAILY"
-    api_key = "OKRP7XRTHZE2LCWM"  # Replace YOUR_API_KEY with your actual API key
+    api_key = ""  # Replace YOUR_API_KEY with your actual API key
     url = f"{base_url}function={function}&symbol={symbol}&apikey={api_key}&outputsize=full"
     response = requests.get(url)
     if response.status_code == 200:
